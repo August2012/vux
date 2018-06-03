@@ -1,4 +1,9 @@
-const wx = require('./1.3.2.js').wx
+// error
+// const wx = require('./1.3.2.js').wx
+
+// success
+const wx = require('./1.3.2.js')
+// const wx = require('weixin-js-sdk')
 
 const plugin = {
   install (Vue) {
